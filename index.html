@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech wave</title>
     <link rel="shortcut icon" href="./images/tech.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/69517b3bbd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-<header>
-    <nav>
-        
-    </nav>
-</header>
+<body class="m-0 p-0 box-border">
+    <header class="bg-black">
+        <nav class="flex justify-between items-center max-w-[1200px] w-full m-auto bg-amber-700 py-6">
+            <h6 class="text-4xl sm:text-6xl  text-white font-extrabold">Tech Wave</h6>
+            <ul class="hidden sm:flex text-white gap-4">
+                <li>About</li>
+                <li>Episodes</li>
+                <li>Host</li>
+            </ul>
+            <div class="flex">
+                <button
+                    class="hidden sm:flex  items-center rounded-full border-none  bg-pink-600 py-3 px-4 text-white font-bold ">Subscribe
+                    <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="flex sm:hidden w-10 h-10 bg-black">
+                    <img class="w-full" src="./assets/hamburger-menu.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
