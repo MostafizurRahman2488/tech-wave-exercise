@@ -10,30 +10,32 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="m-0 p-0 box-border">
-    <header class="bg-black">
-        <nav class="flex justify-between items-center max-w-[1200px] w-full m-auto bg-amber-700 py-6">
-            <h6 class="text-4xl sm:text-6xl  text-white font-extrabold">Tech Wave</h6>
-            <ul class="hidden sm:flex text-white gap-4">
-                <li>About</li>
-                <li>Episodes</li>
-                <li>Host</li>
-            </ul>
-            <div class="flex">
-                <button
-                    class="hidden sm:flex  items-center rounded-full border-none  bg-pink-600 py-3 px-4 text-white font-bold ">Subscribe
-                    <i class="fa-solid fa-arrow-right"></i></button>
-                <div class="flex sm:hidden w-10 h-10 bg-black">
-                    <img class="w-full" src="./assets/hamburger-menu.png" alt="">
+<body>
+    <header>
+        <nav class=" max-w-[1600px] m-auto py-6 bg-[#1b0b2f]">
+            <div class="w-3/4 m-auto flex justify-between items-center">
+                <h6 class="text-4xl sm:text-6xl  text-white font-extrabold">Tech Wave</h6>
+                <ul class="hidden sm:flex text-white gap-4">
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>Host</li>
+                </ul>
+                <div class="flex">
+                    <button
+                        class="hidden sm:flex  items-center rounded-full border-none  bg-[#f7d848] py-3 px-4 text-white font-bold ">Subscribe
+                        <i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="flex sm:hidden w-10 h-10 bg-black">
+                        <img class="w-full" src="./assets/hamburger-menu.png" alt="">
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="bg-amber-600">
-            <div class="max-w-[1200px] m-auto bg-black text-center">
+        <section class="bg-[#1a0b2e] m-auto max-w-[1600px]">
+            <div class="text-center w-full sm:w-3/4 py-12 m-auto">
                 <h3 class="text-white font-bold text-3xl sm:text-5xl">About the Podcast</h3>
-                <p class="text-white">TechWave is your go-to podcast for staying ahead in the fast-paced world of
+                <p class="text-white text-sm sm:text-base">TechWave is your go-to podcast for staying ahead in the fast-paced world of
                     technology. <br>
                     We break down complex topics into digestible insights, explore productivity strategies that actually
                     work, <br>
@@ -43,27 +45,30 @@
                     Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
                 </p>
             </div>
-            <div class="max-w-[1200px] m-auto grid grid-cols-2 sm:grid-cols-4 gap-10 sm:gap-20 bg-yellow-300 border-2">
+            <div class="py-8 w-3/4 text-white m-auto">
+                <hr>
+            </div>
+            <div class="w-3/4 m-auto grid grid-cols-2 sm:grid-cols-4 gap-10 sm:gap-20 border-2 py-12">
                 <div class="border-2 text-center">
-                    <h3 class="text-green-600 font-black text-5xl">150K+</h3>
-                    <p class="text-white">Monthly Listeners</p>
+                    <h3 class="text-green-600 font-black text-4xl sm:text-5xl">150K+</h3>
+                    <p class="text-white text-sm sm:text-base">Monthly Listeners</p>
                 </div>
                 <div class="border-2 text-center">
-                    <h3>200+</h3>
-                    <p>Episodes Published</p>
+                    <h3 class="text-green-600 font-black text-4xl sm:text-5xl">200+</h3>
+                    <p class="text-white text-sm sm:text-base">Episodes Published</p>
                 </div>
                 <div class="border-2 text-center">
-                    <h3>4.9★</h3>
-                    <p>Average Rating</p>
+                    <h3 class="text-green-600 font-black text-4xl sm:text-5xl">4.9★</h3>
+                    <p class="text-white text-sm sm:text-base">Average Rating</p>
                 </div>
                 <div class="border-2 text-center">
-                    <h3>50+</h3>
-                    <p>Industry Experts</p>
+                    <h3 class="text-green-600 font-black text-4xl sm:text-5xl">50+</h3>
+                    <p class="text-white text-sm sm:text-base">Industry Experts</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="max-w-[1600px] m-auto bg-[#211043]">
+    <footer class="sm:max-w-[1600px] m-auto bg-[#211043]">
         <div class="w-full
            min-h-[260px] sm:min-h-[360px] lg:min-h-[420px]
            bg-[url('./assets/footer-bg.png')]
