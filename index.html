@@ -10,11 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+-<body>
     <header>
         <nav class=" max-w-[1600px] m-auto py-6 bg-[#1b0b2f]">
             <div class="w-3/4 m-auto flex justify-between items-center">
-                <h6 class="text-4xl sm:text-6xl  text-white font-extrabold">Tech Wave</h6>
+                <h6 class="text-4xl sm:text-6xl font-extrabold"><span class="text-white">Tech</span><span class="text-pink-500">Wave</span></h6>
                 <ul class="hidden lg:flex text-white gap-4">
                     <li>About</li>
                     <li>Episodes</li>
@@ -22,8 +22,7 @@
                 </ul>
                 <div class="flex">
                     <button
-                        class="hidden  md:flex  items-center rounded-full border-none  bg-gradient-to-r from-yellow-500 via-pink-700 to-orange-400 py-3 px-4 text-white font-bold ">Subscribe
-                        <i class="fa-solid fa-arrow-right"></i></button>
+                        class="hidden  md:flex  items-center rounded-full border-none bg-[linear-gradient(47.64deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))] py-3 px-4 text-white font-bold ">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
                     <div class="flex md:hidden w-10 h-10 bg-black">
                         <img class="w-full" src="./assets/hamburger-menu.png" alt="">
                     </div>
@@ -32,14 +31,14 @@
         </nav>
 
         <section class="max-w-[1600px] mx-auto
-         bg-[url('/assets/hero-bg.png')]
+         bg-[url('./assets/hero-bg.png')]
          bg-no-repeat bg-cover bg-center
          py-16 sm:py-20 lg:py-24">
 
             <!-- Circle + Mic -->
             <div class="flex justify-center">
                 <div class="relative
-             bg-[url('/assets/hero-circle.png')]
+             bg-[url('./assets/hero-circle.png')]
              bg-no-repeat bg-contain bg-center
              w-[220px] h-[220px]
              sm:w-[280px] sm:h-[280px]
@@ -74,18 +73,19 @@
                 <div class="flex gap-4 justify-center mt-6 flex-wrap">
                     <button class="flex items-center gap-2
                rounded-full
-               bg-[#f7d848]
                py-3 px-6
-               text-black font-bold">
-                        Subscribe
-                        <i class="fa-solid fa-arrow-right"></i>
+               bg-[linear-gradient(47.64deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))]
+               text-white font-bold">
+               <img src="./assets/spotify.png" alt="">
+                        Listen on Spotify
                     </button>
 
                     <button class="flex items-center gap-2
                rounded-full
-               border border-white
+               border border-[#00FF88]
                py-3 px-6
-               text-white font-bold">
+               text-[#00FF88] font-bold">
+               <img src="./assets/message.png" alt="">
                         Learn More
                     </button>
                 </div>
@@ -151,19 +151,19 @@
            auto-rows-fr gap-4 sm:gap-8">
 
                 <!-- Card 1 -->
-                <div class="border-2 rounded-3xl bg-green-500
+                <div class="rounded-[40px] bg-[rgba(53,17,101,0.4)]
                 p-6 sm:p-10
                 row-span-1 sm:row-span-2">
                     <img src="./assets/headphone.png" class="w-16 mb-4" alt="">
-                    <h3 class="text-xl font-bold mb-2">Premium Audio Quality</h3>
-                    <p class="text-sm leading-relaxed">
+                    <h3 class="text-xl font-bold mb-2 text-white">Premium Audio Quality</h3>
+                    <p class="text-sm leading-relaxed text-white">
                         Experience crystal-clear sound with professional-grade recording equipment and expert audio
                         engineering.
                     </p>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="border-2 rounded-3xl bg-amber-700 text-white
+                <div class="rounded-[40px] bg-[rgba(53,17,101,0.4)] text-white
                 p-6 sm:p-10 col-span-1 sm:col-span-2">
                     <img src="./assets/device.png" class="w-16 mb-4" alt="">
                     <h3 class="text-xl font-bold mb-2">Mobile Friendly</h3>
@@ -171,40 +171,40 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="border-2 rounded-3xl bg-amber-400
+                <div class="rounded-[40px] bg-[rgba(53,17,101,0.4)]
                 p-6 sm:p-10 col-span-1 sm:col-span-2">
                     <img src="./assets/resource.png" class="w-16 mb-4" alt="">
-                    <h3 class="text-xl font-bold mb-2">Global Community</h3>
-                    <p class="text-sm">Connect with tech enthusiasts from 120+ countries.</p>
+                    <h3 class="text-xl font-bold mb-2 text-white">Global Community</h3>
+                    <p class="text-sm text-white">Connect with tech enthusiasts from 120+ countries.</p>
                 </div>
 
                 <!-- Card 4 -->
-                <div class="border-2 rounded-3xl bg-amber-800 text-white
+                <div class="rounded-[40px] bg-[rgba(53,17,101,0.4)]
                 p-6 sm:p-10 col-span-1 sm:col-span-2">
                     <img src="./assets/location.png" class="w-16 mb-4" alt="">
-                    <h3 class="text-xl font-bold mb-2">Exclusive Interviews</h3>
-                    <p class="text-sm leading-relaxed">
+                    <h3 class="text-xl font-bold mb-2 text-white">Exclusive Interviews</h3>
+                    <p class="text-sm text-white">
                         Deep conversations with industry leaders, founders, and innovators.
                     </p>
                 </div>
 
                 <!-- Card 5 -->
-                <div class="border-2 rounded-3xl bg-amber-500
+                <div class="rounded-[40px] bg-[rgba(53,17,101,0.4)]
                 p-6 sm:p-10">
                     <img src="./assets/location.png" class="w-16 mb-4" alt="">
-                    <h3 class="text-xl font-bold mb-2">Rich Resources</h3>
-                    <p class="text-sm">Show notes, transcripts & learning materials.</p>
+                    <h3 class="text-xl font-bold mb-2 text-white">Rich Resources</h3>
+                    <p class="text-sm text-white">Show notes, transcripts & learning materials.</p>
                 </div>
 
             </div>
         </section>
-        <section class="border-2 bg-green-300 max-w-[1600px] mx-auto py-10">
+        <section class="bg-[rgba(26,11,46,1)] max-w-[1600px] mx-auto py-10">
             <div class="max-w-[1200px] mx-auto px-4">
-                <h3 class="text-6xl font-extrabold text-center py-10">Featured Episodes</h3>
-                <div class="bg-yellow-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <h3 class="text-6xl font-extrabold text-center py-10 text-white">Featured Episodes</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     <!-- Card -->
-                    <div class="bg-pink-400 rounded-xl overflow-hidden w-full max-w-[380px] mx-auto">
+                    <div class="rounded-[24px] bg-[rgba(37,13,68,1)] overflow-hidden w-full max-w-[380px] mx-auto">
 
                         <!-- Responsive iframe -->
                         <div class="aspect-video w-full">
@@ -214,11 +214,11 @@
                         </div>
 
                         <div class="p-4">
-                            <h6 class="font-bold text-lg mb-2">
+                            <h6 class="font-bold text-lg mb-2 text-white">
                                 The Future of AI in Everyday Life
                             </h6>
 
-                            <p class="text-sm mb-4">
+                            <p class="text-sm mb-4 text-white">
                                 Exploring how artificial intelligence is transforming our daily routines and what to
                                 expect
                                 in the next decade.
@@ -226,41 +226,41 @@
 
                             <div class="flex items-center gap-2">
                                 <img src="./assets/clock.png" class="w-4 h-4" alt="">
-                                <p class="text-sm">42 min</p>
+                                <p class="text-sm text-green-500">42 min</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- duplicate card 2 -->
-                    <div class="bg-pink-400 rounded-xl overflow-hidden w-full max-w-[380px] mx-auto">
+                    <div class="rounded-[24px] bg-[rgba(37,13,68,1)] overflow-hidden w-full max-w-[380px] mx-auto">
                         <div class="aspect-video w-full">
                             <iframe class="w-full h-full" src="https://www.youtube.com/embed/o5iNbmDbViA"
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-4">
-                            <h6 class="font-bold text-lg mb-2">The Future of AI in Everyday Life</h6>
-                            <p class="text-sm mb-4">Exploring how artificial intelligence is transforming our daily
+                            <h6 class="font-bold text-lg mb-2 text-white">The Future of AI in Everyday Life</h6>
+                            <p class="text-sm mb-4 text-white">Exploring how artificial intelligence is transforming our daily
                                 routines.</p>
                             <div class="flex items-center gap-2">
                                 <img src="./assets/clock.png" class="w-4 h-4" alt="">
-                                <p class="text-sm">42 min</p>
+                                <p class="text-sm text-green-500">42 min</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- duplicate card 3 -->
-                    <div class="bg-pink-400 rounded-xl overflow-hidden w-full max-w-[380px] mx-auto">
+                    <div class="rounded-[24px] bg-[rgba(37,13,68,1)] overflow-hidden w-full max-w-[380px] mx-auto">
                         <div class="aspect-video w-full">
                             <iframe class="w-full h-full" src="https://www.youtube.com/embed/o5iNbmDbViA"
                                 allowfullscreen></iframe>
                         </div>
                         <div class="p-4">
-                            <h6 class="font-bold text-lg mb-2">The Future of AI in Everyday Life</h6>
-                            <p class="text-sm mb-4">Exploring how artificial intelligence is transforming our daily
+                            <h6 class="font-bold text-lg mb-2 text-white">The Future of AI in Everyday Life</h6>
+                            <p class="text-sm mb-4 text-white">Exploring how artificial intelligence is transforming our daily
                                 routines.</p>
                             <div class="flex items-center gap-2">
                                 <img src="./assets/clock.png" class="w-4 h-4" alt="">
-                                <p class="text-sm">42 min</p>
+                                <p class="text-sm text-green-500">42 min</p>
                             </div>
                         </div>
                     </div>
@@ -269,12 +269,12 @@
             </div>
             <div class="max-w-[1200px] mx-auto px-4">
                 <!-- Title -->
-                <h3 class="text-3xl sm:text-5xl text-center py-8 sm:py-10 font-bold">
+                <h3 class="text-3xl sm:text-5xl text-center py-8 sm:py-10 font-bold text-white">
                     Meet the Host
                 </h3>
 
                 <!-- Card -->
-                <div class="bg-violet-500 rounded-2xl
+                <div class="rounded-[40px] bg-[rgba(53,17,101,0.4)]
                 flex flex-col sm:flex-row
                 gap-6 sm:gap-8
                 items-center
@@ -288,11 +288,11 @@
 
                     <!-- Content -->
                     <div class="text-center sm:text-left">
-                        <h3 class="text-xl sm:text-2xl font-semibold mb-3">
+                        <h3 class="text-xl sm:text-2xl font-semibold mb-3 text-white">
                             Alex Kumar
                         </h3>
 
-                        <p class="text-sm sm:text-base leading-relaxed mb-5">
+                        <p class="text-sm sm:text-base leading-relaxed mb-5 text-white">
                             Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
                             industry for over 10 years, working with startups and Fortune 500 companies. Through
                             TechWave, Alex shares insights from industry leaders and practical advice for anyone looking
