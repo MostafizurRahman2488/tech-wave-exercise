@@ -1,6 +1,1 @@
 @import "tailwindcss";
-
-div{
-    background-image: url(/assets/hero-circle.png);
-    background-image: url(/assets/hero-bg.png);
-}
